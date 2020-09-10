@@ -1,9 +1,0 @@
-'''
-Created on Mar 27, 2019
-
-@author: LiuYuhao
-'''
-import os
-os.chdir('news');
-i = 1
-f = open("{}.txt".format(i))

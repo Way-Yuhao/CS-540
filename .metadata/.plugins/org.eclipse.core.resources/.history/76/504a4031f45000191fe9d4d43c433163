@@ -1,8 +1,0 @@
-'''
-Created on Mar 27, 2019
-
-@author: LiuYuhao
-'''
-import os
-a = [1, 2, 3]
-a.re

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename local variable &apos;numUnits&apos; in &apos;NeuralLayer.NeuralLayer(...)&apos; to &apos;nonBiasUnits&apos;&#x0A;- Original project: &apos;P10&apos;&#x0A;- Original element: &apos;NeuralLayer.NeuralLayer(int, int, int).numUnits&apos;&#x0A;- Renamed element: &apos;numUnits&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;numUnits&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{NeuralLayer.java[NeuralLayer~NeuralLayer~I~I~I@numUnits!164!175!168!175!I!0!true" name="nonBiasUnits" references="true" stamp="1556489086417" version="1.0"/>
-</session>

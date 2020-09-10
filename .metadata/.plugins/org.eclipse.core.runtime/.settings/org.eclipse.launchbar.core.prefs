@@ -1,0 +1,16 @@
+LaunchTargetManager/configs/Chatbot=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/FinalTest=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/FinalTest\ Debug=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/NeuralNet=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=macosx
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:P6 test.py,org.eclipse.launchbar.core.descriptorType.default\:WaterJug,org.eclipse.launchbar.core.descriptorType.default\:StateTest,org.eclipse.launchbar.core.descriptorType.default\:New_configuration,org.eclipse.launchbar.core.descriptorType.default\:test (1),org.eclipse.launchbar.core.descriptorType.default\:EightQueen,org.eclipse.launchbar.core.descriptorType.default\:testsb,org.eclipse.launchbar.core.descriptorType.default\:P6 NLP.py (1),org.eclipse.launchbar.core.descriptorType.default\:P6 PCA.py,org.eclipse.launchbar.core.descriptorType.default\:Number,org.eclipse.launchbar.core.descriptorType.default\:Hanoi,org.eclipse.launchbar.core.descriptorType.default\:test,org.eclipse.launchbar.core.descriptorType.default\:P6 NLP.py,org.eclipse.launchbar.core.descriptorType.default\:Chatbot2,org.eclipse.launchbar.core.descriptorType.default\:Chatbot,org.eclipse.launchbar.core.descriptorType.default\:HClustering,org.eclipse.launchbar.core.descriptorType.default\:JavaProgramTestor JavaProgramTester.py,org.eclipse.launchbar.core.descriptorType.default\:New_configuration (1),org.eclipse.launchbar.core.descriptorType.default\:BodyVsBrain,org.eclipse.launchbar.core.descriptorType.default\:NeuralNet,org.eclipse.launchbar.core.descriptorType.default\:FinalTest Debug,org.eclipse.launchbar.core.descriptorType.default\:FinalTest
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:BodyVsBrain/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Chatbot/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:HClustering/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:NeuralNet/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:NeuralNet/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:P6\ test.py/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:P6\ test.py/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

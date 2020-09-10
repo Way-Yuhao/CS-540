@@ -1,0 +1,9 @@
+'''
+Created on Mar 27, 2019
+
+@author: LiuYuhao
+'''
+from collections import Counter
+b = Counter("b":2)
+a.update("a")
+print(a)

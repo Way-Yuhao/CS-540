@@ -1,0 +1,12 @@
+'''
+Created on Mar 27, 2019
+
+@author: LiuYuhao
+'''
+from collections import Counter
+import os
+os.chdir('news')
+a = Counter()
+a.update("a")
+a.update("b")
+print(a.values())

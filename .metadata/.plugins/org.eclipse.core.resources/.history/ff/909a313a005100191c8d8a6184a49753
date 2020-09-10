@@ -1,0 +1,10 @@
+'''
+Created on Mar 27, 2019
+
+@author: LiuYuhao
+'''
+from collections import Counter
+a = Counter({"a":3})
+b = Counter({"b":2})
+a = a + b
+print(a.count())

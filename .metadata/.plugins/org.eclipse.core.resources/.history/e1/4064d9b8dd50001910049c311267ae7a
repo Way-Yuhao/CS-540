@@ -1,0 +1,25 @@
+'''
+Created on Mar 27, 2019
+
+@author: LiuYuhao
+'''
+
+''' ROADMAP
+Input all files and store in separate classes
+Preprocessing
+Tokenization
+Build bag-of-words representation of each documents using collection.counter
+tf-idf
+'''
+import os
+import subprocess as sh
+
+class NLP():
+    def __init__(self):
+        print('a')
+        
+def main(self):
+    
+
+if __name__ == '__main__':
+    main()

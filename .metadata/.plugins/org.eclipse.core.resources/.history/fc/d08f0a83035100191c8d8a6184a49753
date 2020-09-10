@@ -1,0 +1,62 @@
+'''
+Created on Mar 27, 2019
+
+@author: LiuYuhao
+'''
+
+''' ROADMAP
+Input all files and store in separate classes
+Preprocessing
+Tokenization
+Build bag-of-words representation of each documents using collection.counter
+tf-idf
+'''
+import os
+import array
+# import subprocess as sh
+from collections import Counter
+
+class vocab():
+    def __init__(self):
+        print()
+        
+def main():
+    #method variables
+    docs = []
+    stopwords = ["a", "the", "of", "with"]
+    os.chdir('news')
+    index = 1;
+    
+    while index <= 511:
+        # open file
+        file = open("{:03d}.txt".format(index))
+        lines = file.read().lower() # convert all to lowercase; type = str
+        # tokenize
+        tokens = lines.split()
+        # pre-processing
+        ct = Counter()
+        for token in tokens:
+            #remove stop words
+            if stopwords.__contains__(token):
+                tokens.remove(token)
+            # build BoW for this file
+            ct.update(token)
+        docs.append(ct)
+        # ct = None
+        file.close()
+        index+=1
+    print("----Finished building all docs----") 
+       
+    # combine all docs to obtain dictionary
+    corpus = Counter()
+    for doc in docs:
+        corpus += doc
+    corpus = sorted(corpus)
+    valueSet = corpus.values()
+    occurrance = sum(valueSet)
+    wordType =  len(corpus.items())
+    print("Total occurrance = {}".format(occurrance))
+    print("Word types = {}".format(wordType))
+    
+if __name__ == '__main__':
+    main()

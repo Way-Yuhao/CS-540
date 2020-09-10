@@ -1,0 +1,27 @@
+-- VERSION_5
+-- START DISKCACHE_2
+/Users/LiuYuhao/OneDrive - UW-Madison/UW/Spring 2019/CS 540/Programs/.metadata/.plugins/org.eclipse.core.resources/.projects/P6/com.python.pydev.analysis/v2_indexcache
+NLP|1553740192000000000|/Users/LiuYuhao/OneDrive - UW-Madison/UW/Spring 2019/CS 540/Programs/P6/NLP.py
+test|1553740391000000000|/Users/LiuYuhao/OneDrive - UW-Madison/UW/Spring 2019/CS 540/Programs/P6/test.py
+-- END DISKCACHE
+-- START DICTIONARY
+5
+1=/Users/LiuYuhao/OneDrive - UW-Madison/UW/Spring 2019/CS 540/Programs/P6/test.py
+3=/Users/LiuYuhao/OneDrive - UW-Madison/UW/Spring 2019/CS 540/Programs/P6/NLP.py
+4=NLP
+2=test
+5=vocab
+-- END DICTIONARY
+-- START TREE 1
+6
+a|1|a!1^7#1*19@
+b|0|
+c|0|
+mai|1|main!3^23#5*34@
+voc|1|vocab!3^19#7*33@
+x|0|
+-- END TREE
+-- START TREE 2
+1
+__i|1|__init__!5&3^20#9*34@
+-- END TREE

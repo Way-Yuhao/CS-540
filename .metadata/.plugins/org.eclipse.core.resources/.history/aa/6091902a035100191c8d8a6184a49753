@@ -1,0 +1,10 @@
+'''
+Created on Mar 27, 2019
+
+@author: LiuYuhao
+'''
+from collections import Counter
+import os
+os.chdir('news')
+a = 1
+f = open("00{}.txt".format(a))
